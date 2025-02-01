@@ -8,6 +8,7 @@ stages:
     outs:
     - data/raw
 
+  
   data_preprocessing:
     cmd: python src/data/data_preprocessing.py
     deps:
@@ -17,6 +18,8 @@ stages:
     outs:
     - data/interim
 
+
+  
   model_building:
     cmd: python src/model/model_building.py
     deps:
@@ -32,6 +35,8 @@ stages:
     - lgbm_model.pkl
     - tfidf_vectorizer.pkl
 
+
+  
   model_evaluation:
     cmd: python src/model/model_evaluation.py
     deps:
@@ -44,6 +49,7 @@ stages:
     - experiment_info.json
 
 
+  
   model_registration:
     cmd: python src/model/register_model.py
     deps:
