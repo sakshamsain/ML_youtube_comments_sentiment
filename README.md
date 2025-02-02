@@ -78,7 +78,7 @@ https://www.youtube.com/watch?v=i_FdiQMwKiw
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: 315865595366.dkr.ecr.us-east-1.amazonaws.com/winerepo
+    - Save the URI: 315865595366.dkr.ecr.us-east-1.amazonaws.com/youtube
 
 	
 ## 4. Create EC2 machine (Ubuntu) 
