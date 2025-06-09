@@ -1,5 +1,5 @@
 # End-to-end-Youtube-Sentiment
-
+live: https://addons.mozilla.org/en-US/firefox/addon/youtube-sentiment-insights
 
 conda create -n youtube python=3.11 -y
 
